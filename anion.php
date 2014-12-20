@@ -4,7 +4,7 @@ include ('inc/header.php');
 ?>
 
             <div class="small-12 columns text-centered course">
-                <h1 class="course">McNary High School Chemistry</h1>
+                <h1 class="course">High School Chemistry</h1>
                 <h3 class="course"><?php echo $pageTitle; ?> Concentration Game</h3>
             </div>
         </div>
@@ -31,10 +31,13 @@ include ('inc/header.php');
 
         <!-- jQuery Memory Card/Pairs Game -->
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" /></script>
-        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/jquery-ui.min.js" /></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" /></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js" /></script>
+         <script src="js/script.min.js" /></script>
         <script src="js/jquery.flip.min.js" /></script>
         <script src="js/jquery.quizymemorygame.js" /></script>
+
+       
 
         <!-- End Memory Game Plugins -->
 
