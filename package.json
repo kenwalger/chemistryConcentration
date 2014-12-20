@@ -1,0 +1,34 @@
+{
+  "name": "chemistryConcentration",
+  "version": "0.1.0",
+  "description": "Classic \"Memory\" game for chemistry anions and cations",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenwalger/chemistryConcentration.git"
+  },
+  "keywords": [
+    "High",
+    "School",
+    "Chemistry",
+    "memory",
+    "concentration",
+    "game",
+    "anions",
+    "cations"
+  ],
+  "author": "Ken W. Alger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenwalger/chemistryConcentration/issues"
+  },
+  "homepage": "https://github.com/kenwalger/chemistryConcentration"
+}
