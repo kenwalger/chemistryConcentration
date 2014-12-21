@@ -17,7 +17,15 @@ include ('inc/header.php');
               if ($pageTitle === "Anions") {
                 include('inc/anionGraphics.php');
               } elseif ($pageTitle === "Cations") {
-                include('inc/cationGraphics.php');
+                // include('inc/cationGraphics.php');
+                ?>
+                <div class="row">
+                    <div class="small-12 columns text centered panel">
+                        <p>Sorry, we are still working on this game.</p>
+                        <p><a href="index.php">Return to Home Page</a></p>
+                    </div>
+                </div>
+            <?php
               } else {
                 echo('Sorry, there has been an error.');
               }

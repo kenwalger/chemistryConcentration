@@ -4,7 +4,7 @@ include ('inc/header.php');
 ?>
 
             <div class="small-12 columns text-centered course">
-                <h1 class="course">High School Chemistry</h1>
+                <h1 class="course">McNary High School Chemistry</h1>
                 <h3 class="course"><?php echo $pageTitle; ?> Concentration Game</h3>
             </div>
         </div>
