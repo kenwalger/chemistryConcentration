@@ -12,7 +12,7 @@
   background:url('img/mg-mcard.png');
 }
 
-.quizy-memorygame .quizy-mg-item{
+.quizy-memorygame .quizy-mg-item {
   position:absolute;
   cursor:pointer;
   text-align:center;
@@ -25,7 +25,7 @@
   text-align:center;
 }
 
-.quizy-mg-item .quizy-mg-item-top{
+.quizy-mg-item .quizy-mg-item-top {
   background:url('../img/back.svg');
 }
 

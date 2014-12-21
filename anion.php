@@ -13,19 +13,17 @@ include ('inc/header.php');
 
             <div class="small-12 columns text-centered">
 
-              <?php
+            <?php
               if ($pageTitle === "Anions") {
-                include('inc/anionLogic.php');
+                include('inc/anionGraphics.php');
               } elseif ($pageTitle === "Cations") {
-                echo('That game has not been fully developed yet, sorry!');
+                include('inc/cationGraphics.php');
               } else {
                 echo('Sorry, there has been an error.');
               }
 
-              ?>
-                <div class="reset-button">
-                    <a class="button tiny primary radius" id="restart" href="">Reset game</a>
-                </div>
+            ?>
+
             </div>
         </div>
 

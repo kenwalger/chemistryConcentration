@@ -1,7 +1,19 @@
 body {
   font-family: Helvetica, Arial, Verdana;
   text-align: center;
-  background: url('../img/background.jpg') no-repeat; }
+}
+
+body::after {
+    content: "";
+    background: url('../img/background.jpg') no-repeat; 
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+}
 
 #my-memorygame {
   margin: auto;

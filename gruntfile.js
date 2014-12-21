@@ -26,7 +26,7 @@ module.exports = function(grunt) {
             },
             css: {
                 files: ['src/scss/**/*.scss'],
-                tasks: ['sass.dev']
+                tasks: ['sass:dev']
             }
         },
         sass: {
@@ -58,7 +58,7 @@ module.exports = function(grunt) {
 
     // Register task(s)
     grunt.registerTask('default', ['uglify:dev', 'sass:dev']);
-    grunt.registerTask('build', ['uglify:build']);
+    grunt.registerTask('build', ['uglify:build', 'sass:build']);
 
 
 }

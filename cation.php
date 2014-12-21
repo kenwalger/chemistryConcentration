@@ -13,24 +13,16 @@ include ('inc/header.php');
 
             <div class="small-12 columns text-centered">
 
-              <?php
+            <?php
               if ($pageTitle === "Anions") {
-                include('inc/anionLogic.php');
+                include('inc/anionGraphics.php');
               } elseif ($pageTitle === "Cations") {
-                echo '<div class="small-12 columns text-centered panel">';
-                    echo '<span style="color:red; font-size: 1.5em;">That game has not been fully developed yet, sorry!</span>';
-                    echo '<br>';
-                    echo '<a href="index.php">Return to Home Page</a>';
-                echo '</div>';
+                include('inc/cationGraphics.php');
               } else {
-                echo '<div class="small-12 columns text-centered panel">';
-                    echo '<span style="color:red; font-size: 1.5em;">Sorry, there has been an error.</span>';
-                    echo '<br>';
-                    echo '<a href="index.php">Return to Home Page</a>';
-                echo '</div>';
+                echo('Sorry, there has been an error.');
               }
 
-              ?>
+            ?>
 
             </div>
         </div>
