@@ -15,12 +15,12 @@
     </head>
     <body>
         <div class="row">
-            <div class="small-12 columns text-centered course">
+            <div class="small-10 push-1 columns text-centered course panel rounded">
                 <h1 class="course">McNary High School Chemistry</h1>
             </div>
         </div>
         <div class="row">
-            <div class="small-12 columns text-left panel">
+            <div class="small-10 push-1 columns text-left panel">
                 <span>Course Resources</span>
                 <ul>
                     <li><a href="anion.php">Anion Concentration Game</a></li>
@@ -30,8 +30,8 @@
             </div>
         </div>
 
-        <footer>
-            <p class="footer">Copyright &copy; <?php echo date("Y"); ?> ZyzzyxTech</p>
+        <footer class="row">
+            <p class="footer panel small-10 push-1 columns">Copyright &copy; <?php echo date("Y"); ?> ZyzzyxTech</p>
         </footer>
     </body>
 
